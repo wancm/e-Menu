@@ -62,7 +62,7 @@ function run(): void {
 }
 
 const startup = async () => {
-    await AppSettings.startup()
+    // await AppSettings.startup()
 }
 
 run()

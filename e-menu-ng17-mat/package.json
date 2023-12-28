@@ -21,16 +21,9 @@
     "@angular/platform-server": "^17.0.0",
     "@angular/router": "^17.0.0",
     "@angular/ssr": "^17.0.7",
-    "country-json": "^1.1.4",
-    "dayjs": "^1.11.10",
-    "dotenv": "^16.3.1",
+    "e-menu": "file:..",
     "express": "^4.18.2",
     "mongodb": "^6.3.0",
-    "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
-    "uuid": "^9.0.1",
-    "zod": "^3.22.4",
-    "zod-validation-error": "^2.1.0",
     "zone.js": "~0.14.2"
   },
   "devDependencies": {
