@@ -1,0 +1,11 @@
+{
+  "identifier": "en-MY",
+  "web": {
+    "contents": [
+      {
+        "key": "p-home-title",
+        "label": "e-Menu Malaysia"
+      }
+    ]
+  }
+}

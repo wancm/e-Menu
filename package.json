@@ -1,0 +1,14 @@
+{
+  "name": "e-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --prefix e-menu-express-server & npm run build --prefix e-menu-ng17-mat",
+    "start": "npm run start --prefix e-menu-express-server & npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

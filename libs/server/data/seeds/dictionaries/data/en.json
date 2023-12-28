@@ -1,0 +1,59 @@
+{
+  "identifier": "en",
+  "web": {
+    "contents": [
+      {
+        "key": "p-home-title",
+        "label": "e-Menu"
+      },
+      {
+        "key": "p-home-header",
+        "label": "We make running small restaurant easy for you."
+      },
+      {
+        "key": "p-home-btn-quick-try",
+        "label": "Take a quick try"
+      },
+      {
+        "key": "p-home-btn-learn-more",
+        "label": "Learn more"
+      },
+      {
+        "key": "f-restaurant-name",
+        "label": "Your restaurant name",
+        "form": {
+          "formControlName": "fcRestaurantName",
+          "hint": "this is input hint",
+          "placeholder": "this is input placeholder",
+          "errors": {
+            "required": "Please provide your restaurant name",
+            "min": "Name at least 3 characters",
+            "max": "Name can have up to max 50 characters"
+          },
+          "rules": {
+            "required": true,
+            "min": 3,
+            "max": 30
+          }
+        }
+      },
+      {
+        "key": "f-restaurant-location",
+        "label": "The location of your restaurant",
+        "form": {
+          "formControlName": "fcRestaurantLocation",
+          "errors": {
+            "required": "Please provide the location of your restaurant",
+            "min": "Restaurant location search needs at least 3 characters",
+            "max": "Restaurant location can have up to max 200 characters"
+          },
+          "rules": {
+            "required": true,
+            "min": 3,
+            "max": 200
+          }
+        }
+      }
+    ]
+  }
+}

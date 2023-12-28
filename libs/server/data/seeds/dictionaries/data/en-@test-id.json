@@ -1,0 +1,16 @@
+{
+  "identifier": "en-@test-id",
+  "web": {
+    "contents": [
+      {
+        "key": "f-home-name",
+        "form": {
+          "rules": {
+            "required": false,
+            "min": 5
+          }
+        }
+      }
+    ]
+  }
+}
